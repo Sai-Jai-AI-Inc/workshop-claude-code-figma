@@ -2,9 +2,12 @@
 
 import Image from "next/image";
 import { Search, Zap, FlaskConical, Rocket, Calendar, MapPin, CheckCircle, List } from "lucide-react";
-import FAQ from "@/components/FAQ";
+import FAQItem from "@/components/FAQItem";
+import copyTexts from "../../copy-texts.json";
+
 
 export default function Home() {
+  const copy = copyTexts.site.sections;
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -15,172 +18,130 @@ export default function Home() {
             {/* Course Introduction */}
             <section>
               <h1 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">
-                Claude Code AI Coding Assistant with Figma and Playwright MCP
-                <br />
-                <span className="text-2xl text-gray-600 dark:text-gray-400">SaiJaiAI Workshop Series</span>
+                {copy.hero.headline}
               </h1>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-8">
-                เรียนรู้การใช้ Claude Code อย่างเต็มศักยภาพผ่านการลงมือทำจริง ตั้งแต่การเชื่อมต่อ MCP Services
-                เช่น Playwright และ Figma ไปจนถึงการ<strong>สร้าง MCP Server ของตัวเองด้วย FastMCP</strong> การแปลง Jupyter Notebook เป็น Streamlit App
-                และการผสานรวมกับ GitHub Workflow แบบมืออาชีพ
+                {copy.hero.subheadline}
               </p>
               <p className="text-base text-gray-600 dark:text-gray-200 leading-relaxed">
-                Workshop นี้เน้นการปฏิบัติจริง ผู้เรียนจะได้เรียนรู้เทคนิคขั้นสูงอย่าง Plan Mode, Think Hard, Git Worktree
-                การเขียน Test และ<strong>การพัฒนา Custom MCP Tools</strong> ที่จะช่วยเพิ่มประสิทธิภาพในการพัฒนาซอฟต์แวร์ด้วย AI อย่างมีระบบ
+                {copy.hero.reference}
               </p>
             </section>
 
-            {/* What You'll Learn */}
+            {/* Target Audience */}
             <section className="bg-gray-50 dark:bg-gray-900 rounded-2xl p-8">
-              <h2 className="text-3xl font-bold text-center mb-12">สิ่งที่คุณจะได้เรียนรู้</h2>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-                  <div className="text-gray-600 dark:text-gray-400 mb-4"><Search size={32} /></div>
-                  <h3 className="font-semibold mb-2">MCP Integrations</h3>
-                  <p className="text-gray-600 dark:text-gray-400">เชื่อมต่อ Playwright และ Figma MCP กับ Claude Code</p>
-                </div>
-                <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-                  <div className="text-gray-600 dark:text-gray-400 mb-4"><Zap size={32} /></div>
-                  <h3 className="font-semibold mb-2">Custom MCP Servers</h3>
-                  <p className="text-gray-600 dark:text-gray-400">สร้าง MCP Server ของตัวเองด้วย FastMCP และ Python</p>
-                </div>
-                <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-                  <div className="text-gray-600 dark:text-gray-400 mb-4"><FlaskConical size={32} /></div>
-                  <h3 className="font-semibold mb-2">Notebook to Web App</h3>
-                  <p className="text-gray-600 dark:text-gray-400">แปลง Jupyter Notebook เป็น Streamlit App ได้อย่างรวดเร็ว</p>
-                </div>
-                <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-                  <div className="text-gray-600 dark:text-gray-400 mb-4"><Search size={32} /></div>
-                  <h3 className="font-semibold mb-2">GitHub Integration</h3>
-                  <p className="text-gray-600 dark:text-gray-400">ตั้งค่าและทำงานร่วมกับ GitHub ผ่าน Claude Code</p>
-                </div>
-                <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-                  <div className="text-gray-600 dark:text-gray-400 mb-4"><Rocket size={32} /></div>
-                  <h3 className="font-semibold mb-2">Advanced Techniques</h3>
-                  <p className="text-gray-600 dark:text-gray-400">Plan Mode, Think Hard, Git Worktree และเทคนิคการเขียน Test</p>
-                </div>
-                <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-                  <div className="text-gray-600 dark:text-gray-400 mb-4"><FlaskConical size={32} /></div>
-                  <h3 className="font-semibold mb-2">MCP Architecture</h3>
-                  <p className="text-gray-600 dark:text-gray-400">เข้าใจ Client-Server Architecture และการ Deploy MCP</p>
-                </div>
+              <h2 className="text-3xl font-bold text-center mb-12">{copy.audience.headline}</h2>
+              <div className="space-y-4">
+                {copy.audience.bullets.map((bullet, index) => (
+                  <div key={index} className="flex items-start gap-3">
+                    <span className="text-gray-600 dark:text-gray-400">•</span>
+                    <span className="text-gray-700 dark:text-gray-300">{bullet}</span>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            {/* MCP Explainer */}
+            <section className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm">
+              <h2 className="text-3xl font-bold mb-6">{copy.mcp_explainer.headline}</h2>
+              <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{copy.mcp_explainer.text}</p>
+            </section>
+
+            {/* Why MCP */}
+            <section className="bg-gray-50 dark:bg-gray-900 rounded-2xl p-8">
+              <h2 className="text-3xl font-bold text-center mb-12">{copy.why_mcp.headline}</h2>
+              <div className="space-y-4">
+                {copy.why_mcp.bullets.map((bullet, index) => (
+                  <div key={index} className="flex items-start gap-3">
+                    <span className="text-gray-600 dark:text-gray-400">•</span>
+                    <span className="text-gray-700 dark:text-gray-300">{bullet}</span>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            {/* Objectives */}
+            <section className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm">
+              <h2 className="text-3xl font-bold mb-6">{copy.objectives.headline}</h2>
+              <div className="space-y-4">
+                {copy.objectives.bullets.map((bullet, index) => (
+                  <div key={index} className="flex items-start gap-3">
+                    <span className="text-gray-600 dark:text-gray-400">•</span>
+                    <span className="text-gray-700 dark:text-gray-300">{bullet}</span>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            {/* Outcomes */}
+            <section className="bg-gray-50 dark:bg-gray-900 rounded-2xl p-8">
+              <h2 className="text-3xl font-bold text-center mb-12">{copy.outcomes.headline}</h2>
+              <div className="space-y-4">
+                {copy.outcomes.bullets.map((bullet, index) => (
+                  <div key={index} className="flex items-start gap-3">
+                    <span className="text-gray-600 dark:text-gray-400">•</span>
+                    <span className="text-gray-700 dark:text-gray-300">{bullet}</span>
+                  </div>
+                ))}
               </div>
             </section>
 
             {/* Curriculum */}
             <section>
-              <h2 className="text-3xl font-bold text-center mb-12">หลักสูตร</h2>
+              <h2 className="text-3xl font-bold text-center mb-12">{copy.curriculum.headline}</h2>
               <div className="space-y-8">
-                {/* Part 1: Foundation */}
-                <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm">
-                  <h3 className="text-xl font-bold mb-6">Part 1: Claude Code Foundation & MCP Integration</h3>
-                  <ul className="space-y-3 text-base">
-                    <li className="flex items-start gap-3">
-                      <span className="text-gray-600 dark:text-gray-400">•</span>
-                      <span>การติดตั้ง Claude Code กับ VS Code และเลือก Model ที่เหมาะสม</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-gray-600 dark:text-gray-400">•</span>
-                      <span>เชื่อมต่อ Playwright MCP กับ Claude Code สำหรับการทดสอบ Web</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-gray-600 dark:text-gray-400">•</span>
-                      <span>เชื่อมต่อ Figma MCP เพื่อการพัฒนาจาก Design</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-gray-600 dark:text-gray-400">•</span>
-                      <span>ทำความเข้าใจ MCP Architecture และ Client-Server Communication</span>
-                    </li>
-                  </ul>
-                </div>
-
-                {/* Part 2: Building Custom MCP */}
-                <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm">
-                  <h3 className="text-xl font-bold mb-6">Part 2: Building Custom MCP Servers</h3>
-                  <ul className="space-y-3 text-base">
-                    <li className="flex items-start gap-3">
-                      <span className="text-gray-600 dark:text-gray-400">•</span>
-                      <span>สร้าง MCP Server แรกด้วย FastMCP และ Python</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-gray-600 dark:text-gray-400">•</span>
-                      <span>พัฒนา Custom Tools และ Resources สำหรับ Domain-specific Tasks</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-gray-600 dark:text-gray-400">•</span>
-                      <span>การทดสอบ MCP Server ด้วย MCP Inspector</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-gray-600 dark:text-gray-400">•</span>
-                      <span>เชื่อมต่อ Custom MCP Server กับ Claude Desktop</span>
-                    </li>
-                  </ul>
-                </div>
-
-                {/* Part 3: Advanced Applications */}
-                <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm">
-                  <h3 className="text-xl font-bold mb-6">Part 3: Advanced Applications & Production</h3>
-                  <ul className="space-y-3 text-base">
-                    <li className="flex items-start gap-3">
-                      <span className="text-gray-600 dark:text-gray-400">•</span>
-                      <span>แปลง Jupyter Notebook เป็น Streamlit App ที่ใช้งานได้จริง</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-gray-600 dark:text-gray-400">•</span>
-                      <span>การตั้งค่าและใช้งาน Claude Code กับ GitHub Workflow</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-gray-600 dark:text-gray-400">•</span>
-                      <span>ใช้ Git Worktree สำหรับการพัฒนาหลายฟีเจอร์พร้อมกัน</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-gray-600 dark:text-gray-400">•</span>
-                      <span>Deploy MCP Server ไปยัง Production Environment</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-gray-600 dark:text-gray-400">•</span>
-                      <span>เทคนิคขั้นสูง: Plan Mode, Think Hard และการเขียน Test</span>
-                    </li>
-                  </ul>
-                </div>
+                {copy.curriculum.modules.map((module, index) => (
+                  <div key={index} className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm">
+                    <h3 className="text-xl font-bold mb-6">{module.title}</h3>
+                    <ul className="space-y-3 text-base">
+                      {module.topics.map((topic, topicIndex) => (
+                        <li key={topicIndex} className="flex items-start gap-3">
+                          <span className="text-gray-600 dark:text-gray-400">•</span>
+                          <span className="text-gray-700 dark:text-gray-300">{topic}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
               </div>
             </section>
 
             {/* FAQs */}
-            <FAQ />
+            <section>
+              <h2 className="text-3xl font-bold text-center mb-12">{copy.faq.headline}</h2>
+              <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm">
+                {copy.faq.items.map((faq, index) => (
+                  <FAQItem key={index} question={faq.question} answer={faq.answer} />
+                ))}
+              </div>
+            </section>
 
             {/* Instructor */}
             <section>
-              <h2 className="text-3xl font-bold text-center mb-12">เกี่ยวกับผู้สอน</h2>
+              <h2 className="text-3xl font-bold text-center mb-12">{copy.author.headline}</h2>
               <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm">
                 <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
                   <div className="w-32 h-32 rounded-full overflow-hidden flex-shrink-0">
                     <Image
                       src="https://avatars.githubusercontent.com/u/1384845?v=4"
-                      alt="Kamol Treewatchararat"
+                      alt={copy.author.full_name}
                       width={128}
                       height={128}
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="flex-1 text-center md:text-left">
-                    <h3 className="text-2xl font-bold mb-2">Kamol Treewatchararat</h3>
-                    <p className="text-gray-700 dark:text-gray-300 font-semibold mb-4">SaijaiAI LLC | AI Engineer</p>
+                    <h3 className="text-2xl font-bold mb-2">{copy.author.full_name}</h3>
+                    <p className="text-gray-700 dark:text-gray-300 font-semibold mb-4">{copy.author.role}</p>
                     <p className="text-gray-600 dark:text-gray-400 mb-4">
-                      ผู้เชี่ยวชาญด้าน AI และ Machine Learning พร้อมประสบการณ์ในการพัฒนา Software Engineering
-                      จบการศึกษาจาก University of Southern California และได้รับการ Certification หลากหลายสาขา
-                      ทั้ง Natural Language Processing, MLOps และ Generative AI
+                      {copy.author.description}
                     </p>
                     <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-                      <span className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-3 py-1 rounded-full text-sm">
-                        Machine Learning
-                      </span>
-                      <span className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-3 py-1 rounded-full text-sm">
-                        AI Software Engineering
-                      </span>
-                      <span className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-3 py-1 rounded-full text-sm">
-                        NLP
-                      </span>
+                      {copy.author.tags.map((tag, index) => (
+                        <span key={index} className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-3 py-1 rounded-full text-sm">
+                          {tag}
+                        </span>
+                      ))}
                     </div>
                   </div>
                 </div>
@@ -192,36 +153,46 @@ export default function Home() {
           <div className="lg:col-span-1">
             <div className="sticky top-8">
               <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 p-8">
-                <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">ภาพรวมกิจกรรม</h2>
+                <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">{copy.details.headline}</h2>
                 
                 <div className="space-y-4 mb-8">
                   <div className="flex items-center gap-3">
                     <Calendar size={20} className="text-gray-600 dark:text-gray-400" />
-                    <span className="text-gray-900 dark:text-white font-medium">วันที่: <span className="font-normal">TBD</span></span>
+                    <span className="text-gray-900 dark:text-white font-medium">วันที่: <span className="font-normal">{copy.details.date}</span></span>
                   </div>
                   
                   <div className="flex items-center gap-3">
                     <MapPin size={20} className="text-gray-600 dark:text-gray-400" />
-                    <span className="text-gray-900 dark:text-white font-medium">สถานที่: <span className="font-normal">TBD</span></span>
+                    <span className="text-gray-900 dark:text-white font-medium">สถานที่: <span className="font-normal">{copy.details.location}</span></span>
                   </div>
                   
                   <div className="flex items-start gap-3">
                     <List size={20} className="text-gray-600 dark:text-gray-400 mt-1" />
-                    <span className="text-gray-900 dark:text-white font-medium">รูปแบบ: <span className="font-normal">เวิร์กช็อปแบบลงมือทำ (เครื่องของผู้เรียน) + การนำเสนอ</span></span>
+                    <span className="text-gray-900 dark:text-white font-medium">รูปแบบ: <span className="font-normal">{copy.details.format}</span></span>
                   </div>
                   
                   <div className="flex items-start gap-3">
                     <CheckCircle size={20} className="text-gray-600 dark:text-gray-400 mt-1" />
-                    <span className="text-gray-900 dark:text-white font-medium">ผู้เข้าร่วมควรมีพื้นฐานการพัฒนาเว็บ/สคริปต์ และ Git ขั้นพื้นฐาน</span>
+                    <div className="text-gray-900 dark:text-white font-medium">
+                      ความต้องการ:
+                      <ul className="font-normal mt-2 space-y-1">
+                        {copy.details.requirements.map((req, index) => (
+                          <li key={index} className="flex items-start gap-2">
+                            <span className="text-gray-600 dark:text-gray-400">•</span>
+                            <span>{req}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 </div>
-                
-                <button 
-                  onClick={() => window.open('https://forms.gle/hZyQwwaKVkjTeuYa9', '_blank')}
-                  className="w-full bg-gray-900 hover:bg-gray-800 text-white py-3 px-6 rounded-full font-medium transition-colors duration-200"
+                <a href={copy.footer.google_form_url} target="_blank">
+                  <button 
+                  className="w-full bg-gray-900 hover:bg-gray-800 text-white py-3 px-6 rounded-full font-medium transition-colors duration-200 cursor-pointer"
                 >
-                  จองสิทธิใน Waitlist
+                    {copy.footer.waitlist_cta}
                 </button>
+                </a>
               </div>
             </div>
           </div>
@@ -231,7 +202,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-8 px-4 sm:px-6 lg:px-8 bg-gray-900 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="mb-4">© 2024 SaijaiAI LLC. All rights reserved.</p>
+          <p className="mb-4">{copy.footer.note}</p>
         </div>
       </footer>
     </div>

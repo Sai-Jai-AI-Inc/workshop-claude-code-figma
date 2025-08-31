@@ -1,0 +1,159 @@
+{
+  "site": {
+    "title": "Claude Code Workshop (TH)",
+    "tagline": "เรียนรู้ Claude Code และ MCP ผ่านเวิร์กช็อปลงมือทำจริง",
+    "sections": {
+      "hero": {
+        "headline": "เวิร์กช็อป \"Claude Code: Agentic Coding Assistant\" (ภาษาไทย)",
+        "subheadline": "ฝึกใช้ผู้ช่วยเขียนโค้ดแบบ Agentic อย่างมีประสิทธิภาพ ตั้งแต่การออกแบบเวิร์กโฟลว์ การเขียนและทดสอบ ไปจนถึงรีวิวและปรับปรุงโค้ด — ยกระดับความเร็วและคุณภาพการพัฒนาอย่างยั่งยืน",
+        "cta": "เข้าร่วม Waitlist",
+        "reference": "อ้างอิงเนื้อหาและแรงบันดาลใจจากบทเรียนสั้นของ DeepLearning.AI"
+      },
+      "audience": {
+        "headline": "เหมาะสำหรับใคร",
+        "bullets": [
+          "วิศวกรซอฟต์แวร์ / Tech leads ที่ต้องการยกระดับ productivity",
+          "ผู้พัฒนาผลิตภัณฑ์ที่อยากสร้าง workflow เชื่อม AI กับเครื่องมือจริง",
+          "ผู้จัดการทีมที่กำหนดมาตรฐานคุณภาพโค้ดและการรีวิว"
+        ]
+      },
+      "mcp_explainer": {
+        "headline": "MCP คืออะไร?",
+        "text": "MCP (Model Context Protocol) คือมาตรฐานใหม่ที่เปิดให้ AI Assistant (เช่น Claude Code) เชื่อมกับเครื่องมือและระบบภายนอกอย่างปลอดภัยและตรวจสอบได้ ช่วยให้ AI เข้าใจ context ของโปรเจกต์ลึกขึ้น เช่น อ่าน repo, run tests, เชื่อมกับ Figma หรือระบบ CI/CD"
+      },
+      "why_mcp": {
+        "headline": "ทำไมต้อง MCP ตอนนี้?",
+        "bullets": [
+          "กำลังกลายเป็นมาตรฐานอุตสาหกรรม (Anthropic, OpenAI, Hugging Face เริ่มรองรับ)",
+          "ผู้ที่เข้าใจก่อนจะสามารถสร้าง agent และ workflow ที่ทำงานได้จริงในองค์กร",
+          "ลดเวลาทำงานซ้ำ ๆ → เร็วขึ้น มีระบบ และตรวจสอบย้อนกลับได้"
+        ]
+      },
+      "objectives": {
+        "headline": "วัตถุประสงค์",
+        "bullets": [
+          "เข้าใจแนวคิด Agentic Coding Assistant และการใช้เครื่องมือเสริม",
+          "ประยุกต์ใช้ Claude Code เพื่อเร่งงานเขียนโค้ด รีวิว และทดสอบ",
+          "ออกแบบเวิร์กโฟลว์ที่ปลอดภัย ตรวจสอบได้ และลดความผิดพลาด"
+        ]
+      },
+      "outcomes": {
+        "headline": "หลังจบเวิร์กช็อปคุณจะ...",
+        "bullets": [
+          "สร้าง MCP server ที่เชื่อม Claude Code ↔ Figma/Playwright",
+          "เขียนโค้ด + ทดสอบ + deploy ผ่าน Agentic workflow ได้เอง",
+          "มี project portfolio (พร้อม GitHub repo) ที่โชว์ skill ใหม่"
+        ]
+      },
+      "curriculum": {
+        "headline": "หลักสูตร (Curriculum)",
+        "modules": [
+          {
+            "title": "โมดูล 1: ภาพรวม Agentic Coding & Claude Code",
+            "topics": [
+              "Agentic AI คืออะไร",
+              "สถาปัตยกรรมของ Claude Code",
+              "ความเสี่ยง: hallucination, security, privacy"
+            ]
+          },
+          {
+            "title": "โมดูล 2: การตั้งค่าและเครื่องมือประกอบ",
+            "topics": [
+              "IDE/CLI integration และ project setup",
+              "การใช้ tools เช่น run/test, repo browse",
+              "Prompt patterns สำหรับงานโค้ด"
+            ]
+          },
+          {
+            "title": "โมดูล 3: ออกแบบเวิร์กโฟลว์แบบ Agentic",
+            "topics": [
+              "Task decomposition และ planning",
+              "Loop: สร้าง → รัน → อ่านผล → ปรับปรุง",
+              "เชื่อมกับ Git และ CI/CD"
+            ]
+          },
+          {
+            "title": "โมดูล 4: Hand-on Lab",
+            "topics": [
+              "แปลงสเปกเป็นโครงสร้างโปรเจกต์",
+              "TDD และการเขียนเทสต์อัตโนมัติ",
+              "Refactor และ code review กับ Claude Code"
+            ]
+          },
+          {
+            "title": "โมดูล 5: การประเมินผล & แนวปฏิบัติ",
+            "topics": [
+              "ตัวชี้วัดคุณภาพโค้ด",
+              "เทคนิคลดข้อผิดพลาดและตั้งค่า guardrails",
+              "ข้อจำกัดที่พบบ่อย"
+            ]
+          },
+          {
+            "title": "โมดูล 6: Custom Hooks & Workflow Integration",
+            "topics": [
+              "แนวคิดเหมือน Git hooks",
+              "การเพิ่ม pre-run / post-run hooks",
+              "ตัวอย่าง: run lint/tests ก่อน commit, auto-branch หลัง commit"
+            ]
+          }
+        ]
+      },
+      "tools": {
+        "headline": "เครื่องมือหลักที่ใช้ในเวิร์กช็อป",
+        "logos": [
+          { "name": "Anthropic Claude Code", "caption": "Agentic AI coding assistant" },
+          { "name": "Figma", "caption": "Design → Code integration via MCP" },
+          { "name": "Playwright", "caption": "Automation & testing integration" }
+        ]
+      },
+      "faq": {
+        "headline": "คำถามที่พบบ่อย",
+        "items": [
+          {
+            "question": "เวิร์กช็อปนี้แตกต่างจากการเรียนคอร์สออนไลน์ฟรีอย่างไร?",
+            "answer": "เน้นลงมือทำกับโจทย์จริง มีผู้สอนคอยโค้ช และช่วยออกแบบเวิร์กโฟลว์เพื่อลด trial-and-error"
+          },
+          {
+            "question": "ผู้เข้าร่วมควรมีพื้นฐานอะไรบ้าง?",
+            "answer": "มีประสบการณ์เขียนโปรแกรม (Python หรือ JS/TS), ใช้ Git/CLI และการรันเทสต์"
+          },
+          {
+            "question": "จะได้รับเนื้อหาอะไรกลับไป?",
+            "answer": "เวิร์กบุ๊ก, เทมเพลต prompt, โค้ดตัวอย่าง, และแนวทางปฏิบัติที่สามารถใช้ในทีม"
+          },
+          {
+            "question": "รูปแบบการเรียนเป็นอย่างไร?",
+            "answer": "ผสมระหว่างบรรยายสั้นและกิจกรรมแฮนด์ออน พร้อมโจทย์ใกล้เคียงงานจริง"
+          }
+        ]
+      },
+      "details": {
+        "headline": "รายละเอียดเชิงปฏิบัติ",
+        "date": "TBD",
+        "location": "TBD",
+        "format": "Workshop แบบลงมือทำ + กรณีศึกษา",
+        "requirements": [
+          "โน้ตบุ๊กพร้อมสิทธิ์ติดตั้งแพ็กเกจ",
+          "บัญชี Claude Code (หรือเทียบเท่า)",
+          "ความคุ้นเคยกับ Git/CLI"
+        ]
+      },
+      "author": {
+        "headline": "เกี่ยวกับผู้สอน",
+        "profile_picture": {
+          "src":"https://avatars.githubusercontent.com/u/1384845?v=4",
+          "alt": "กมล ตรีวัชรารัตน์"
+        },
+        "full_name": "กมล ตรีวัชรารัตน์",
+        "role": "SaijaiAI LLC | AI Engineer",
+        "description": "ผู้เชี่ยวชาญด้าน AI และ Machine Learning พร้อมประสบการณ์ในการพัฒนา Software Engineering                      จบการศึกษาจาก University of Southern California และได้รับการ Certification หลากหลายสาขาทั้ง Natural Language Processing, MLOps และ Generative AI",
+        "tags": ["Machine Learning", "AI Software Engineering", "NLP"]
+      },
+      "footer": {
+        "note": "© 2025 Claude Code Workshop (TH). เนื้อหาอ้างอิงจาก DeepLearning.AI",
+        "waitlist_cta": "จองสิทธิ์ใน Waitlist",
+        "google_form_url": "https://forms.gle/hZyQwwaKVkjTeuYa9"
+      }
+    }
+  }
+}
