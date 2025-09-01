@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Search, Zap, FlaskConical, Rocket, Calendar, MapPin, CheckCircle, List } from "lucide-react";
+import { Search, Zap, FlaskConical, Rocket, Calendar, MapPin, CheckCircle, List, Linkedin, Instagram, Github } from "lucide-react";
 import FAQItem from "@/components/FAQItem";
 import copyTexts from "../../copy-texts.json";
 
@@ -143,6 +143,32 @@ export default function Home() {
                         </span>
                       ))}
                     </div>
+                    <div className="flex gap-4 justify-center md:justify-start mt-6">
+                      <a 
+                        href={copy.author.social.linkedin.url} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+                      >
+                        <Linkedin size={24} />
+                      </a>
+                      <a 
+                        href={copy.author.social.instagram.url} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-gray-600 dark:text-gray-400 hover:text-pink-600 dark:hover:text-pink-400 transition-colors duration-200"
+                      >
+                        <Instagram size={24} />
+                      </a>
+                      <a 
+                        href={copy.author.social.github.url} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors duration-200"
+                      >
+                        <Github size={24} />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -179,7 +205,7 @@ export default function Home() {
                         {copy.details.requirements.map((req, index) => (
                           <li key={index} className="flex items-start gap-2">
                             <span className="text-gray-600 dark:text-gray-400">•</span>
-                            <span>{req}</span>
+                            <span dangerouslySetInnerHTML={{ __html: req }} />
                           </li>
                         ))}
                       </ul>
