@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Sarabun, Geist_Mono } from "next/font/google";
+import { Kanit, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const sarabun = Sarabun({
-  variable: "--font-sarabun",
+const kanit = Kanit({
+  variable: "--font-kanit",
   subsets: ["latin", "thai"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });
@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${sarabun.variable} ${geistMono.variable} antialiased`}
+        className={`${kanit.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
