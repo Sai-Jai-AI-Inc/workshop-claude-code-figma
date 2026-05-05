@@ -1,0 +1,20 @@
+title: AI Prompting for everyone. Let's start from outline:
+• AI Novice vs poweruser
+• context (system prompt, tool definition, chat history)
+• neutral prompt vs sycophancy
+• web search (vs • pretrained knowledge)
+• deep research (agentic ai)
+• trigger words (think hard, search online, during [time], at [place])
+• brainstorm ideas
+• desktop apps
+• writing (fix ai slops, critique, iterate)
+• multimedia and multimodal llm
+• building apps (goal, input, output)
+• data analysis (infographic, flashcard, insight)
+
+these are the top use cases of AI, so without more context, this is generally applicable to broad audience.
+
+the goal at the end of this course is to turn you into an AI pro by:
+• give good context
+• give hard task to AI
+• try newer better models

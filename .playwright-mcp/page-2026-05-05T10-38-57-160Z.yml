@@ -1,0 +1,201 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - heading "เวิร์กช็อป \"AI Prompting for Everyone\" (ภาษาไทย)" [level=1] [ref=e7]
+        - paragraph [ref=e8]: เรียนรู้เทคนิคการใช้ AI อย่างมืออาชีพ ตั้งแต่การให้ context ที่ดี การมอบงานยากให้ AI ไปจนถึงการเลือกโมเดลที่เหมาะสม — เปลี่ยนตัวเองจาก AI Novice สู่ AI Poweruser ใน Workshop หนึ่งวัน
+        - paragraph [ref=e9]: เนื้อหาครอบคลุม Use Cases ยอดนิยมของ AI ที่ใช้ได้จริงในชีวิตประจำวันและการทำงาน เหมาะสำหรับทุกคนโดยไม่จำเป็นต้องมีพื้นฐานด้านเทคนิค
+      - generic [ref=e10]:
+        - heading "เหมาะสำหรับใคร" [level=2] [ref=e11]
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - generic [ref=e14]: •
+            - generic [ref=e15]: ผู้เริ่มต้นใช้ AI ที่ต้องการใช้งานได้อย่างมีประสิทธิภาพและถูกวิธี
+          - generic [ref=e16]:
+            - generic [ref=e17]: •
+            - generic [ref=e18]: มืออาชีพที่อยากนำ AI มาช่วยงานเขียน วิเคราะห์ข้อมูล และสร้างสรรค์ไอเดีย
+          - generic [ref=e19]:
+            - generic [ref=e20]: •
+            - generic [ref=e21]: นักเรียน นักศึกษา และผู้สนใจทั่วไปที่ต้องการเข้าใจและใช้ AI อย่างถ่องแท้
+      - generic [ref=e22]:
+        - heading "Context คืออะไร?" [level=2] [ref=e23]
+        - paragraph [ref=e24]: Context คือข้อมูลพื้นหลังที่คุณส่งให้ AI เพื่อให้เข้าใจสิ่งที่คุณต้องการได้ดีขึ้น ประกอบด้วย System Prompt (คำสั่งและบทบาทเริ่มต้น), Tool Definition (เครื่องมือที่ AI เข้าถึงได้) และ Chat History (ประวัติการสนทนา) การให้ context ที่ถูกต้องและครบถ้วนคือความแตกต่างสำคัญระหว่าง AI Novice กับ AI Poweruser
+      - generic [ref=e25]:
+        - heading "ทำไมต้องเรียน AI Prompting ตอนนี้?" [level=2] [ref=e26]
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: •
+            - generic [ref=e30]: AI กลายเป็นเครื่องมือหลักในการทำงาน — ผู้ที่ใช้เป็นจะได้เปรียบอย่างมาก
+          - generic [ref=e31]:
+            - generic [ref=e32]: •
+            - generic [ref=e33]: เทคนิค Prompting ที่ถูกต้องช่วยประหยัดเวลาและให้ผลลัพธ์ที่ดีกว่าหลายเท่า
+          - generic [ref=e34]:
+            - generic [ref=e35]: •
+            - generic [ref=e36]: โมเดล AI ใหม่เปิดตัวอยู่เสมอ — เรียนรู้วิธีเลือกและใช้ให้เกิดประโยชน์สูงสุด
+      - generic [ref=e37]:
+        - heading "วัตถุประสงค์" [level=2] [ref=e38]
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]: •
+            - generic [ref=e42]: เข้าใจหลักการให้ context ที่ดีกับ AI และผลกระทบต่อคุณภาพของคำตอบ
+          - generic [ref=e43]:
+            - generic [ref=e44]: •
+            - generic [ref=e45]: สามารถมอบงานที่ยากและซับซ้อนให้ AI ได้อย่างมีประสิทธิภาพ
+          - generic [ref=e46]:
+            - generic [ref=e47]: •
+            - generic [ref=e48]: รู้จักและเลือกใช้โมเดล AI ที่ใหม่กว่าและทรงพลังกว่าได้อย่างเหมาะสม
+      - generic [ref=e49]:
+        - heading "หลังจบเวิร์กช็อปคุณจะ..." [level=2] [ref=e50]
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e53]: •
+            - generic [ref=e54]: ใช้ AI ในการเขียน วิเคราะห์ข้อมูล และสร้างสรรค์งานได้อย่างมืออาชีพ
+          - generic [ref=e55]:
+            - generic [ref=e56]: •
+            - generic [ref=e57]: สร้าง Workflow การทำงานกับ AI ที่มีประสิทธิภาพสำหรับงานจริงของคุณ
+          - generic [ref=e58]:
+            - generic [ref=e59]: •
+            - generic [ref=e60]: เข้าใจข้อจำกัดของ AI และรับมือกับ Sycophancy และ Hallucination ได้
+      - generic [ref=e61]:
+        - heading "หลักสูตร (Curriculum)" [level=2] [ref=e62]
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - 'heading "โมดูล 1: AI Novice vs Poweruser" [level=3] [ref=e65]'
+            - list [ref=e66]:
+              - listitem [ref=e67]:
+                - generic [ref=e68]: •
+                - generic [ref=e69]: ความแตกต่างระหว่าง AI Novice กับ AI Poweruser
+              - listitem [ref=e70]:
+                - generic [ref=e71]: •
+                - generic [ref=e72]: ทำไม Poweruser ถึงได้ผลลัพธ์ที่ดีกว่า
+              - listitem [ref=e73]:
+                - generic [ref=e74]: •
+                - generic [ref=e75]: Mindset และวิธีคิดของ AI Poweruser
+          - generic [ref=e76]:
+            - 'heading "โมดูล 2: Context — รากฐานของ Prompt ที่ดี" [level=3] [ref=e77]'
+            - list [ref=e78]:
+              - listitem [ref=e79]:
+                - generic [ref=e80]: •
+                - generic [ref=e81]: "Context คืออะไร: System Prompt, Tool Definition, Chat History"
+              - listitem [ref=e82]:
+                - generic [ref=e83]: •
+                - generic [ref=e84]: Neutral Prompt vs Sycophancy — วิธีได้คำตอบที่ตรงไปตรงมา
+              - listitem [ref=e85]:
+                - generic [ref=e86]: •
+                - generic [ref=e87]: เทคนิคการให้ context ที่ถูกต้องและครบถ้วน
+          - generic [ref=e88]:
+            - 'heading "โมดูล 3: การค้นหาและวิจัยด้วย AI" [level=3] [ref=e89]'
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - generic [ref=e92]: •
+                - generic [ref=e93]: Web Search vs Pretrained Knowledge — เลือกใช้เมื่อไหร่
+              - listitem [ref=e94]:
+                - generic [ref=e95]: •
+                - generic [ref=e96]: Deep Research ด้วย Agentic AI
+              - listitem [ref=e97]:
+                - generic [ref=e98]: •
+                - generic [ref=e99]: "Trigger Words: think hard, search online, during [time], at [place]"
+          - generic [ref=e100]:
+            - 'heading "โมดูล 4: Brainstorm, Writing & Desktop Apps" [level=3] [ref=e101]'
+            - list [ref=e102]:
+              - listitem [ref=e103]:
+                - generic [ref=e104]: •
+                - generic [ref=e105]: Brainstorm Ideas กับ AI อย่างมีประสิทธิภาพ
+              - listitem [ref=e106]:
+                - generic [ref=e107]: •
+                - generic [ref=e108]: "Writing: แก้ไข AI Slop, Critique และ Iterate งานเขียน"
+              - listitem [ref=e109]:
+                - generic [ref=e110]: •
+                - generic [ref=e111]: Desktop Apps ที่ช่วยเพิ่ม Productivity กับ AI
+          - generic [ref=e112]:
+            - 'heading "โมดูล 5: Multimedia & Multimodal LLM" [level=3] [ref=e113]'
+            - list [ref=e114]:
+              - listitem [ref=e115]:
+                - generic [ref=e116]: •
+                - generic [ref=e117]: Multimodal LLM คืออะไร และทำอะไรได้บ้าง
+              - listitem [ref=e118]:
+                - generic [ref=e119]: •
+                - generic [ref=e120]: การใช้ภาพ เสียง และวิดีโอร่วมกับ AI
+              - listitem [ref=e121]:
+                - generic [ref=e122]: •
+                - generic [ref=e123]: Use Cases จริงของ Multimodal AI ในชีวิตประจำวัน
+          - generic [ref=e124]:
+            - 'heading "โมดูล 6: Building Apps & Data Analysis" [level=3] [ref=e125]'
+            - list [ref=e126]:
+              - listitem [ref=e127]:
+                - generic [ref=e128]: •
+                - generic [ref=e129]: "Building Apps ด้วย AI: Goal, Input, Output Framework"
+              - listitem [ref=e130]:
+                - generic [ref=e131]: •
+                - generic [ref=e132]: "Data Analysis: สร้าง Infographic, Flashcard และ Insight"
+              - listitem [ref=e133]:
+                - generic [ref=e134]: •
+                - generic [ref=e135]: นำผลลัพธ์จาก AI ไปใช้ในงานจริง
+      - generic [ref=e136]:
+        - heading "คำถามที่พบบ่อย" [level=2] [ref=e137]
+        - generic [ref=e138]:
+          - button "คอร์สนี้เหมาะกับคนที่ไม่มีพื้นฐานด้าน AI ใช่ไหม?" [ref=e140]:
+            - generic [ref=e141]: คอร์สนี้เหมาะกับคนที่ไม่มีพื้นฐานด้าน AI ใช่ไหม?
+            - img [ref=e142]
+          - button "เวิร์กช็อปนี้แตกต่างจากการลองใช้ AI เองที่บ้านอย่างไร?" [ref=e145]:
+            - generic [ref=e146]: เวิร์กช็อปนี้แตกต่างจากการลองใช้ AI เองที่บ้านอย่างไร?
+            - img [ref=e147]
+          - button "จะได้รับเนื้อหาอะไรกลับไป?" [ref=e150]:
+            - generic [ref=e151]: จะได้รับเนื้อหาอะไรกลับไป?
+            - img [ref=e152]
+          - button "รูปแบบการเรียนเป็นอย่างไร?" [ref=e155]:
+            - generic [ref=e156]: รูปแบบการเรียนเป็นอย่างไร?
+            - img [ref=e157]
+      - generic [ref=e159]:
+        - heading "เกี่ยวกับผู้สอน" [level=2] [ref=e160]
+        - generic [ref=e162]:
+          - img "กมล ตรีวัชรารัตน์" [ref=e164]
+          - generic [ref=e165]:
+            - heading "กมล ตรีวัชรารัตน์" [level=3] [ref=e166]
+            - paragraph [ref=e167]: SaijaiAI LLC | AI Engineer
+            - paragraph [ref=e168]: ผู้เชี่ยวชาญด้าน AI และ Machine Learning พร้อมประสบการณ์ในการพัฒนา Software Engineering จบการศึกษาจาก University of Southern California และได้รับการ Certification หลากหลายสาขาทั้ง Natural Language Processing, MLOps และ Generative AI
+            - generic [ref=e169]:
+              - generic [ref=e170]: Machine Learning
+              - generic [ref=e171]: AI Educator
+              - generic [ref=e172]: Generative AI
+            - generic [ref=e173]:
+              - link [ref=e174] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/kamol/
+                - img [ref=e175]
+              - link [ref=e179] [cursor=pointer]:
+                - /url: https://www.instagram.com/tholapz/
+                - img [ref=e180]
+              - link [ref=e183] [cursor=pointer]:
+                - /url: https://github.com/tholapz
+                - img [ref=e184]
+    - generic [ref=e189]:
+      - heading "รายละเอียดเชิงปฏิบัติ" [level=2] [ref=e190]
+      - generic [ref=e191]:
+        - generic [ref=e192]:
+          - img [ref=e193]
+          - generic [ref=e195]: "วันที่: TBD"
+        - generic [ref=e196]:
+          - img [ref=e197]
+          - generic [ref=e200]: "สถานที่: TBD"
+        - generic [ref=e201]:
+          - img [ref=e202]
+          - generic [ref=e203]: "รูปแบบ: Workshop แบบลงมือทำ + กรณีศึกษา"
+        - generic [ref=e204]:
+          - img [ref=e205]
+          - generic [ref=e208]:
+            - text: "สิ่งที่ต้องเตรียมมาเอง:"
+            - list [ref=e209]:
+              - listitem [ref=e210]:
+                - generic [ref=e211]: •
+                - generic [ref=e212]: คอมพิวเตอร์หรือแท็บเล็ตที่เชื่อมต่ออินเทอร์เน็ตได้
+              - listitem [ref=e213]:
+                - generic [ref=e214]: •
+                - generic [ref=e215]: สมัครสมาชิก ChatGPT, Gemini, หรือ Claude
+              - listitem [ref=e216]:
+                - generic [ref=e217]: •
+                - generic [ref=e218]: ความสนใจอยากเรียนรู้
+      - link "จองสิทธิ์ใน Waitlist" [ref=e219] [cursor=pointer]:
+        - /url: https://forms.gle/hZyQwwaKVkjTeuYa9
+        - button "จองสิทธิ์ใน Waitlist" [ref=e220]
+  - contentinfo [ref=e221]:
+    - paragraph [ref=e223]: © 2025 AI Prompting for Everyone Workshop (TH). Powered by SaijaiAI

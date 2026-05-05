@@ -1,0 +1,126 @@
+[     253ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537
+[   84416ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[   84439ms] [LOG] [Fast Refresh] done in 35ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  132069ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  132093ms] [LOG] [Fast Refresh] done in 34ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  218984ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  218986ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  218987ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  219072ms] [LOG] [Fast Refresh] done in 47ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  240954ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  240957ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  240957ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  241019ms] [LOG] [Fast Refresh] done in 45ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  279115ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  279117ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  279117ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  279181ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  335397ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  335399ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  335399ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  335464ms] [LOG] [Fast Refresh] done in 25ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  387126ms] [ERROR] ./copy-texts.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/copy-texts.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: expected `,` or `}` at line 149 column 9
+
+Debug info:
+- An error occurred while generating the chunk item [project]/copy-texts.json (json)
+- Execution of *EcmascriptChunkItemContent::module_factory failed
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: expected `,` or `}` at line 149 column 9
+    at site.sections.details.?
+     145 |       "details": {
+     146 |         "headline": "รายละเอียดเชิงปฏิบัติ",
+     147 |         "date": "6 June 2026",
+     148 |         "time": "9:00 AM - 6:00 PM"
+         |         v
+     149 +         "location": "TBD",
+         |         ^
+     150 |         "format": "Workshop แบบลงมือทำ + กรณีศึกษา",
+     151 |         "requirements": [
+     152 |           "คอมพิวเตอร์หรือแท็บเล็ตที่เชื่อมต่ออินเทอร์เน็ตได้",
+     153 |           "สมัครสมาชิก ChatGPT, Gemini, หรือ Claude",
+
+Import traces:
+  Server Component:
+    ./copy-texts.json
+    ./src/app/layout.tsx
+
+  Client Component SSR:
+    ./copy-texts.json
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  387132ms] [LOG] {file: Object} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_next-devtools_index_a9cb0712.js:16057
+[  387176ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  390433ms] [ERROR] ./copy-texts.json
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/copy-texts.json (json)
+
+Caused by:
+- Unable to make a module from invalid JSON: expected `,` or `}` at line 149 column 9
+
+Debug info:
+- An error occurred while generating the chunk item [project]/copy-texts.json (json)
+- Execution of *EcmascriptChunkItemContent::module_factory failed
+- Execution of <JsonChunkItem as EcmascriptChunkItem>::content failed
+- Unable to make a module from invalid JSON: expected `,` or `}` at line 149 column 9
+    at site.sections.details.?
+     145 |       "details": {
+     146 |         "headline": "รายละเอียดเชิงปฏิบัติ",
+     147 |         "date": "6 June 2026",
+     148 |         "time": "9:00 AM - 5:00 PM"
+         |         v
+     149 +         "location": "TBD",
+         |         ^
+     150 |         "format": "Workshop แบบลงมือทำ + กรณีศึกษา",
+     151 |         "requirements": [
+     152 |           "คอมพิวเตอร์หรือแท็บเล็ตที่เชื่อมต่ออินเทอร์เน็ตได้",
+     153 |           "สมัครสมาชิก ChatGPT, Gemini, หรือ Claude",
+
+Import traces:
+  Server Component:
+    ./copy-texts.json
+    ./src/app/layout.tsx
+
+  Client Component SSR:
+    ./copy-texts.json
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  390434ms] [LOG] {file: Object} @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_next-devtools_index_a9cb0712.js:16057
+[  390485ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  401943ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  401947ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  401947ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  401947ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  401993ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  431084ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  431112ms] [LOG] [Fast Refresh] done in 34ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  597713ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  597715ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  597764ms] [LOG] [Fast Refresh] done in 19ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  608324ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  608326ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  608384ms] [LOG] [Fast Refresh] done in 22ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  801844ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  801846ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  801898ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  887567ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  887569ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  887622ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  927887ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  927890ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  927978ms] [LOG] [Fast Refresh] done in 23ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  927984ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  928010ms] [LOG] [Fast Refresh] done in 7ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  939533ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  939534ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  939587ms] [LOG] [Fast Refresh] done in 17ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  947570ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  947572ms] [ERROR] [Turbopack HMR] Expected module to match pattern: [project]/copy-texts.json (json) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  947619ms] [LOG] [Fast Refresh] done in 18ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  991633ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5957
+[  991668ms] [LOG] [Fast Refresh] done in 136ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5817
+[  991852ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537

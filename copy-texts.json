@@ -1,157 +1,171 @@
 {
   "site": {
-    "title": "Claude Code Workshop (TH)",
-    "tagline": "เรียนรู้ Claude Code และ MCP ผ่านเวิร์กช็อปลงมือทำจริง",
+    "title": "Workshop: AI Prompting for Everyone | SaiJaiAI",
+    "keywords": "AI Prompting, ChatGPT, Claude, AI Tools, Workshop, Thailand, Bangkok, AI Skills",
+    "openGraph": {
+      "title": "Workshop: AI Prompting for Everyone",
+      "description": "เรียนรู้เทคนิค AI Prompting อย่างมืออาชีพ พัฒนาทักษะจากผู้ใช้งานมือใหม่ สู่มือโปร",
+      "type": "website"
+    },
+    "tagline": "เรียนรู้เทคนิค AI Prompting อย่างมืออาชีพใน Workshop หนึ่งวันเต็ม พัฒนาทักษะการใช้ AI ในชีวิตประจำวัน และการทำงาน กับ กมล ตรีวัชรารัตน์",
     "sections": {
       "hero": {
-        "headline": "เวิร์กช็อป \"Claude Code: Agentic Coding Assistant\" (ภาษาไทย)",
-        "subheadline": "ฝึกใช้ผู้ช่วยเขียนโค้ดแบบ Agentic อย่างมีประสิทธิภาพ ตั้งแต่การออกแบบเวิร์กโฟลว์ การเขียนและทดสอบ ไปจนถึงรีวิวและปรับปรุงโค้ด — ยกระดับความเร็วและคุณภาพการพัฒนาอย่างยั่งยืน",
-        "cta": "เข้าร่วม Waitlist",
-        "reference": "อ้างอิงเนื้อหาและแรงบันดาลใจจากบทเรียนสั้นของ DeepLearning.AI"
+        "headline": "เวิร์กช็อป \"AI Prompting for Everyone\" (ภาษาไทย)",
+        "subheadline": "เรียนรู้เทคนิคการใช้ AI อย่างมืออาชีพ ตั้งแต่การให้ context ที่ดี ไปจนถึงการเลือกโมเดลที่เหมาะสม พัฒนาทักษะจากผู้ใช้งานมือใหม่ สู่มือโปร ใน Workshop หนึ่งวัน",
+        "cta": "สมัครเรียน",
+        "reference": "เนื้อหาครอบคลุม Use Cases ยอดนิยมของ AI ที่ใช้ได้จริงในชีวิตประจำวันและการทำงาน เหมาะสำหรับทุกคนโดยไม่จำเป็นต้องมีพื้นฐานด้านมาก่อน"
       },
       "audience": {
         "headline": "เหมาะสำหรับใคร",
         "bullets": [
-          "วิศวกรซอฟต์แวร์ / Tech leads ที่ต้องการยกระดับ productivity",
-          "ผู้พัฒนาผลิตภัณฑ์ที่อยากสร้าง workflow เชื่อม AI กับเครื่องมือจริง",
-          "ผู้จัดการทีมที่กำหนดมาตรฐานคุณภาพโค้ดและการรีวิว"
+          "ผู้เริ่มต้นใช้ AI ที่ต้องการใช้งานได้อย่างมีประสิทธิภาพและถูกวิธี",
+          "มืออาชีพที่อยากนำ AI มาช่วยงานเขียน วิเคราะห์ข้อมูล และสร้างสรรค์ไอเดีย",
+          "นักเรียน นักศึกษา และผู้สนใจทั่วไปที่ต้องการเข้าใจและใช้ AI"
         ]
       },
       "mcp_explainer": {
-        "headline": "MCP คืออะไร?",
-        "text": "MCP (Model Context Protocol) คือมาตรฐานใหม่ที่เปิดให้ AI Assistant (เช่น Claude Code) เชื่อมกับเครื่องมือและระบบภายนอกอย่างปลอดภัยและตรวจสอบได้ ช่วยให้ AI เข้าใจ context ของโปรเจกต์ลึกขึ้น เช่น อ่าน repo, run tests, เชื่อมกับ Figma หรือระบบ CI/CD"
+        "headline": "Context คืออะไร?",
+        "text": "Context คือข้อมูลพื้นหลังที่คุณส่งให้ AI เพื่อให้เข้าใจสิ่งที่คุณต้องการได้ดีขึ้น ประกอบด้วย System Prompt (คำสั่งและบทบาทเริ่มต้น), Tool Definition (เครื่องมือที่ AI เข้าถึงได้) และ Chat History (ประวัติการสนทนา) การให้ context ที่ถูกต้องและครบถ้วนคือความแตกต่างสำคัญระหว่าง AI Novice กับ AI Poweruser"
       },
       "why_mcp": {
-        "headline": "ทำไมต้อง MCP ตอนนี้?",
+        "headline": "ทำไมต้องเรียน AI Prompting ตอนนี้?",
         "bullets": [
-          "กำลังกลายเป็นมาตรฐานอุตสาหกรรม (Anthropic, OpenAI, Hugging Face เริ่มรองรับ)",
-          "ผู้ที่เข้าใจก่อนจะสามารถสร้าง agent และ workflow ที่ทำงานได้จริงในองค์กร",
-          "ลดเวลาทำงานซ้ำ ๆ → เร็วขึ้น มีระบบ และตรวจสอบย้อนกลับได้"
+          "AI กลายเป็นเครื่องมือหลักในการทำงาน — ผู้ที่ใช้เป็นจะได้เปรียบอย่างมาก",
+          "เทคนิค Prompting ที่ถูกต้องช่วยประหยัดเวลาและให้ผลลัพธ์ที่ดีกว่าหลายเท่า",
+          "โมเดล AI ใหม่เปิดตัวอยู่เสมอ — เรียนรู้วิธีเลือกและใช้ให้เกิดประโยชน์สูงสุด"
         ]
       },
       "objectives": {
         "headline": "วัตถุประสงค์",
         "bullets": [
-          "เข้าใจแนวคิด Agentic Coding Assistant และการใช้เครื่องมือเสริม",
-          "ประยุกต์ใช้ Claude Code เพื่อเร่งงานเขียนโค้ด รีวิว และทดสอบ",
-          "ออกแบบเวิร์กโฟลว์ที่ปลอดภัย ตรวจสอบได้ และลดความผิดพลาด"
+          "เข้าใจหลักการให้ context ที่ดีกับ AI และผลกระทบต่อคุณภาพของคำตอบ",
+          "สามารถสั่งงานที่ซับซ้อนให้ AI ได้อย่างมีประสิทธิภาพ",
+          "รู้จักและเลือกใช้โมเดล AI ที่ใหม่กว่าและทรงพลังกว่าได้อย่างเหมาะสม"
         ]
       },
       "outcomes": {
         "headline": "หลังจบเวิร์กช็อปคุณจะ...",
         "bullets": [
-          "สร้าง MCP server ที่เชื่อม Claude Code ↔ Figma/Playwright",
-          "เขียนโค้ด + ทดสอบ + deploy ผ่าน Agentic workflow ได้เอง",
-          "มี project portfolio (พร้อม GitHub repo) ที่โชว์ skill ใหม่"
+          "ใช้ AI ในการเขียน วิเคราะห์ข้อมูล และสร้างสรรค์งานได้อย่างมืออาชีพ",
+          "สร้าง Workflow การทำงานกับ AI ที่มีประสิทธิภาพสำหรับงานจริงของคุณ",
+          "เข้าใจข้อจำกัดของ AI และรับมือกับ Sycophancy และ Hallucination ได้"
         ]
       },
       "curriculum": {
         "headline": "หลักสูตร (Curriculum)",
         "modules": [
           {
-            "title": "โมดูล 1: ภาพรวม Agentic Coding & Claude Code",
+            "title": "โมดูล 1: AI Novice vs Poweruser",
             "topics": [
-              "Agentic AI คืออะไร",
-              "สถาปัตยกรรมของ Claude Code",
-              "ความเสี่ยง: hallucination, security, privacy"
+              "ความแตกต่างระหว่าง AI Novice กับ AI Poweruser",
+              "ทำไม Poweruser ถึงได้ผลลัพธ์ที่ดีกว่า",
+              "Mindset และวิธีคิดของ AI Poweruser"
             ]
           },
           {
-            "title": "โมดูล 2: การตั้งค่าและเครื่องมือประกอบ",
+            "title": "โมดูล 2: Context — รากฐานของ Prompt ที่ดี",
             "topics": [
-              "IDE/CLI integration และ project setup",
-              "การใช้ tools เช่น run/test, repo browse",
-              "Prompt patterns สำหรับงานโค้ด"
+              "Context คืออะไร: System Prompt, Tool Definition, Chat History",
+              "Neutral Prompt vs Sycophancy — วิธีได้คำตอบที่ตรงไปตรงมา",
+              "เทคนิคการให้ context ที่ถูกต้องและครบถ้วน"
             ]
           },
           {
-            "title": "โมดูล 3: ออกแบบเวิร์กโฟลว์แบบ Agentic",
+            "title": "โมดูล 3: การค้นหาและวิจัยด้วย AI",
             "topics": [
-              "Task decomposition และ planning",
-              "Loop: สร้าง → รัน → อ่านผล → ปรับปรุง",
-              "เชื่อมกับ Git และ CI/CD"
+              "Web Search vs Pretrained Knowledge",
+              "Deep Research ด้วย Agentic AI",
+              "Trigger Words: think hard, search online, during [time], at [place]"
             ]
           },
           {
-            "title": "โมดูล 4: Hand-on Lab",
+            "title": "โมดูล 4: Brainstorm, Writing & Desktop Apps",
             "topics": [
-              "แปลงสเปกเป็นโครงสร้างโปรเจกต์",
-              "TDD และการเขียนเทสต์อัตโนมัติ",
-              "Refactor และ code review กับ Claude Code"
+              "Brainstorm Ideas กับ AI อย่างมีประสิทธิภาพ",
+              "Writing: แก้ไข AI Slop, Critique และ Iterate งานเขียน",
+              "Desktop Apps ที่ช่วยเพิ่ม Productivity กับ AI"
             ]
           },
           {
-            "title": "โมดูล 5: การประเมินผล & แนวปฏิบัติ",
+            "title": "โมดูล 5: Multimedia & Multimodal LLM",
             "topics": [
-              "ตัวชี้วัดคุณภาพโค้ด",
-              "เทคนิคลดข้อผิดพลาดและตั้งค่า guardrails",
-              "ข้อจำกัดที่พบบ่อย"
+              "Multimodal LLM คืออะไร และทำอะไรได้บ้าง",
+              "การใช้ภาพ เสียง และวิดีโอร่วมกับ AI",
+              "Use Cases จริงของ Multimodal AI ในชีวิตประจำวัน"
             ]
           },
           {
-            "title": "โมดูล 6: Custom Hooks & Workflow Integration",
+            "title": "โมดูล 6: Building Apps & Data Analysis",
             "topics": [
-              "แนวคิดเหมือน Git hooks",
-              "การเพิ่ม pre-run / post-run hooks",
-              "ตัวอย่าง: run lint/tests ก่อน commit, auto-branch หลัง commit"
+              "Building Apps ด้วย AI: Goal, Input, Output Framework",
+              "Data Analysis: สร้าง Infographic, Flashcard และ Insight",
+              "นำผลลัพธ์จาก AI ไปใช้ในงานจริง"
             ]
           }
-        ]
-      },
-      "tools": {
-        "headline": "เครื่องมือหลักที่ใช้ในเวิร์กช็อป",
-        "logos": [
-          { "name": "Anthropic Claude Code", "caption": "Agentic AI coding assistant" },
-          { "name": "Figma", "caption": "Design → Code integration via MCP" },
-          { "name": "Playwright", "caption": "Automation & testing integration" }
         ]
       },
       "faq": {
         "headline": "คำถามที่พบบ่อย",
         "items": [
           {
-            "question": "เวิร์กช็อปนี้แตกต่างจากการเรียนคอร์สออนไลน์ฟรีอย่างไร?",
-            "answer": "เน้นลงมือทำกับโจทย์จริง มีผู้สอนคอยโค้ช และช่วยออกแบบเวิร์กโฟลว์เพื่อลด trial-and-error"
+            "question": "คอร์สนี้เหมาะกับคนที่ไม่มีพื้นฐานด้าน AI ใช่ไหม?",
+            "answer": "ใช่ คอร์สนี้ออกแบบมาสำหรับทุกคน ไม่จำเป็นต้องมีพื้นฐานเขียนโปรแกรมหรือความรู้ด้าน AI มาก่อน"
           },
           {
-            "question": "ผู้เข้าร่วมควรมีพื้นฐานอะไรบ้าง?",
-            "answer": "มีประสบการณ์เขียนโปรแกรม (Python หรือ JS/TS), ใช้ Git/CLI และการรันเทสต์"
+            "question": "เวิร์กช็อปนี้แตกต่างจากการลองใช้ AI เองที่บ้านอย่างไร?",
+            "answer": "เน้นเทคนิคที่ได้ผลจริง มีผู้สอนคอยแนะนำ Prompt Pattern ที่ถูกต้อง และช่วยให้คุณไม่เสียเวลาลองผิดลองถูก"
           },
           {
             "question": "จะได้รับเนื้อหาอะไรกลับไป?",
-            "answer": "เวิร์กบุ๊ก, เทมเพลต prompt, โค้ดตัวอย่าง, และแนวทางปฏิบัติที่สามารถใช้ในทีม"
+            "answer": "คู่มือ Prompt Templates, ตัวอย่าง Use Cases จริง และ Checklist ที่นำไปใช้งานได้ทันทีหลังเรียน"
           },
           {
             "question": "รูปแบบการเรียนเป็นอย่างไร?",
-            "answer": "ผสมระหว่างบรรยายสั้นและกิจกรรมแฮนด์ออน พร้อมโจทย์ใกล้เคียงงานจริง"
+            "answer": "ผสมระหว่างการบรรยายสั้น กิจกรรมลงมือทำ และการแก้โจทย์จริงร่วมกัน มีการ Feedback และปรับปรุง Prompt ระหว่างเรียน"
           }
         ]
       },
       "details": {
         "headline": "รายละเอียดเชิงปฏิบัติ",
-        "date": "TBD",
+        "date": "6 June 2026",
+        "time": "9:00 AM - 5:00 PM",
         "location": "TBD",
         "format": "Workshop แบบลงมือทำ + กรณีศึกษา",
         "requirements": [
-          "โน้ตบุ๊กพร้อมสิทธิ์ติดตั้งแพ็กเกจ",
-          "บัญชี Claude Code (หรือเทียบเท่า)",
-          "ความคุ้นเคยกับ Git/CLI"
+          "คอมพิวเตอร์หรือแท็บเล็ตที่เชื่อมต่ออินเทอร์เน็ตได้",
+          "สมัครสมาชิก ChatGPT, Gemini, หรือ Claude",
+          "ความสนใจอยากเรียนรู้"
         ]
       },
       "author": {
         "headline": "เกี่ยวกับผู้สอน",
         "profile_picture": {
-          "src":"https://avatars.githubusercontent.com/u/1384845?v=4",
+          "src": "https://avatars.githubusercontent.com/u/1384845?v=4",
           "alt": "กมล ตรีวัชรารัตน์"
         },
         "full_name": "กมล ตรีวัชรารัตน์",
-        "role": "SaijaiAI LLC | AI Engineer",
-        "description": "ผู้เชี่ยวชาญด้าน AI และ Machine Learning พร้อมประสบการณ์ในการพัฒนา Software Engineering                      จบการศึกษาจาก University of Southern California และได้รับการ Certification หลากหลายสาขาทั้ง Natural Language Processing, MLOps และ Generative AI",
-        "tags": ["Machine Learning", "AI Software Engineering", "NLP"]
+        "role": "SaiJaiAI LLC | AI Practitioner",
+        "description": "ผู้เชี่ยวชาญด้าน AI และ Machine Learning พร้อมประสบการณ์ในการพัฒนา Software Engineering จบการศึกษาจาก University of Southern California และได้รับการ Certification หลากหลายสาขาทั้ง Natural Language Processing, MLOps และ Generative AI",
+        "tags": [
+          "Machine Learning",
+          "AI Educator",
+          "Generative AI"
+        ],
+        "social": {
+          "linkedin": {
+            "url": "https://www.linkedin.com/in/kamol-treewatchararat-a0071812/"
+          },
+          "line": {
+            "url": "https://lin.ee/Qtw25w6"
+          },
+          "github": {
+            "url": "https://github.com/tholapz"
+          }
+        }
       },
       "footer": {
-        "note": "© 2025 Claude Code Workshop (TH). เนื้อหาอ้างอิงจาก DeepLearning.AI",
-        "waitlist_cta": "จองสิทธิ์ใน Waitlist",
+        "note": "© 2026 AI Prompting for Everyone Workshop (TH). Powered by SaiJaiAI",
+        "cta": "สมัครเรียน",
         "google_form_url": "https://forms.gle/hZyQwwaKVkjTeuYa9"
       }
     }
