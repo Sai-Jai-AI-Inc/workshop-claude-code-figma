@@ -9,7 +9,7 @@ const sarabun = Sarabun({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });
 
-export const metadata: Metadata = copyTexts
+export const metadata: Metadata = copyTexts.site
 
 export default function RootLayout({
   children,
