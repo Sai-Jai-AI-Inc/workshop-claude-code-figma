@@ -46,9 +46,15 @@
       "outcomes": {
         "headline": "หลังจบเวิร์กช็อปคุณจะ...",
         "bullets": [
-          "ใช้ AI ในการเขียน วิเคราะห์ข้อมูล และสร้างสรรค์งานได้อย่างมืออาชีพ",
-          "สร้าง Workflow การทำงานกับ AI ที่มีประสิทธิภาพสำหรับงานจริงของคุณ",
-          "เข้าใจข้อจำกัดของ AI และรับมือกับ Sycophancy และ Hallucination ได้"
+          "แยกแยะ Prompt แบบ Novice กับ Poweruser ได้ โดยระบุ context elements ได้อย่างน้อย 4 ใน 6 ข้อ (บทบาท, งาน, กลุ่มเป้าหมาย, ข้อจำกัด, ตัวอย่าง, รูปแบบผลลัพธ์)",
+          "เขียน Prompt ที่มี context ครบถ้วนสำหรับงานจริงของตัวเอง และผลิต Draft แรกที่ใช้ได้จริง",
+          "ตรวจจับ Sycophantic response และเขียน Prompt ใหม่เพื่อให้ได้คำตอบที่ตรงไปตรงมาและเป็นกลาง",
+          "เลือกใช้ระหว่าง Pretrained Knowledge, Web Search และ Deep Research ได้ถูกต้องสำหรับงานต่าง ๆ",
+          "ใช้ Trigger Words อย่างน้อย 3 คำ (think hard, search online, การระบุเวลา/สถานที่) เพื่อยกระดับ Prompt พื้นฐาน",
+          "ปรับปรุงงานเขียนภาษาไทยที่ AI สร้างขึ้นด้วยวงจร critique-and-revise จนได้ Draft ที่ดีขึ้นอย่างเห็นได้ชัด",
+          "ใช้ Multimodal input (ภาพ + ข้อความ เป็นอย่างน้อย) เพื่อทำงานที่ใช้ข้อความเพียงอย่างเดียวไม่ได้",
+          "วิเคราะห์ Use Case ของตัวเองด้วย Goal / Input / Output Framework และสร้าง AI Workflow Blueprint ที่นำไปใช้ได้จริง",
+          "อธิบายข้อจำกัดของ LLM (Hallucination, Context Window, Training Cutoff, Sycophancy) ด้วยคำพูดของตัวเอง พร้อมวิธีรับมืออย่างน้อยหนึ่งวิธีต่อข้อจำกัด"
         ]
       },
       "curriculum": {
