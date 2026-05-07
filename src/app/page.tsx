@@ -41,17 +41,11 @@ export default function Home() {
               </div>
             </section>
 
-            {/* MCP Explainer */}
-            <section className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm">
-              <h2 className="text-3xl font-bold mb-6">{copy.mcp_explainer.headline}</h2>
-              <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{copy.mcp_explainer.text}</p>
-            </section>
-
-            {/* Why MCP */}
+            {/* Why Now */}
             <section className="bg-gray-50 dark:bg-gray-900 rounded-2xl p-8">
-              <h2 className="text-3xl font-bold text-center mb-12">{copy.why_mcp.headline}</h2>
+              <h2 className="text-3xl font-bold text-center mb-12">{copy.why_now.headline}</h2>
               <div className="space-y-4">
-                {copy.why_mcp.bullets.map((bullet, index) => (
+                {copy.why_now.bullets.map((bullet, index) => (
                   <div key={index} className="flex items-start gap-3">
                     <span className="text-gray-600 dark:text-gray-400">•</span>
                     <span className="text-gray-700 dark:text-gray-300">{bullet}</span>
@@ -59,6 +53,13 @@ export default function Home() {
                 ))}
               </div>
             </section>
+
+            {/* Prompting Explainer */}
+            <section className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm">
+              <h2 className="text-3xl font-bold mb-6">{copy.prompting_explainer.headline}</h2>
+              <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{copy.prompting_explainer.text}</p>
+            </section>
+
 
             {/* Objectives */}
             <section className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-sm">
