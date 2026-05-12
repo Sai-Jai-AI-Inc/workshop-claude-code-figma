@@ -219,6 +219,13 @@ export default function Home() {
                       </ul>
                     </div>
                   </div>
+
+                  <div className="flex items-start gap-3">
+                    <CheckCircle size={20} className="text-gray-600 dark:text-gray-400 mt-1" />
+                    <div className="text-gray-900 dark:text-white font-medium">
+                      ค่าใช้จ่าย: {copy.details.price}
+                    </div>
+                  </div>
                 </div>
                 <a href={copy.footer.google_form_url} target="_blank">
                   <button 

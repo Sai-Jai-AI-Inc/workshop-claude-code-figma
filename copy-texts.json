@@ -1,16 +1,16 @@
 {
   "site": {
-    "title": "Workshop: AI Prompting for Everyone | SaiJaiAI",
+    "title": "AI Workshop สำหรับทุกคน | SaiJaiAI",
     "keywords": "AI Prompting, ChatGPT, Claude, AI Tools, Workshop, Thailand, Bangkok, AI Skills",
     "openGraph": {
-      "title": "Workshop: AI Prompting for Everyone",
+      "title": "AI Workshop สำหรับทุกคน",
       "description": "เรียนรู้เทคนิค AI Prompting อย่างมืออาชีพ พัฒนาทักษะจากผู้ใช้งานมือใหม่ สู่มือโปร",
       "type": "website"
     },
     "tagline": "เรียนรู้เทคนิค AI Prompting อย่างมืออาชีพใน Workshop หนึ่งวันเต็ม พัฒนาทักษะการใช้ AI ในชีวิตประจำวัน และการทำงาน กับ กมล ตรีวัชรารัตน์",
     "sections": {
       "hero": {
-        "headline": "AI Prompting Workshop",
+        "headline": "AI Workshop สำหรับทุกคน",
         "subheadline": "เรียนรู้เทคนิคการใช้ AI อย่างมืออาชีพ ตั้งแต่การให้ context ที่ดี ไปจนถึงการเลือกโมเดลที่เหมาะสม พัฒนาทักษะจากผู้ใช้งานมือใหม่ สู่มือโปร ใน Workshop หนึ่งวัน",
         "cta": "สมัครเรียน",
         "reference": "เนื้อหาครอบคลุม Use Cases ยอดนิยมของ AI ที่ใช้ได้จริงในชีวิตประจำวันและการทำงาน เหมาะสำหรับทุกคนโดยไม่จำเป็นต้องมีพื้นฐานด้านมาก่อน"
@@ -25,14 +25,14 @@
       },
       "prompting_explainer": {
         "headline": "Context คืออะไร?",
-        "text": "Context คือข้อมูลพื้นหลังที่คุณส่งให้ AI เพื่อให้เข้าใจสิ่งที่คุณต้องการได้ดีขึ้น ประกอบด้วย System Prompt (คำสั่งและบทบาทเริ่มต้น), Tool Definition (เครื่องมือที่ AI เข้าถึงได้) และ Chat History (ประวัติการสนทนา) การให้ context ที่ถูกต้องและครบถ้วนคือความแตกต่างสำคัญระหว่าง AI Novice กับ AI Poweruser"
+        "text": "Context คือบริบทที่คุณส่งให้ AI เพื่อให้เข้าใจสิ่งที่คุณต้องการได้ดีขึ้น ประกอบด้วย System Prompt (คำสั่งและบทบาทเริ่มต้น), Tool Definition (เครื่องมือที่ AI เข้าถึงได้) และ Chat History (ประวัติการสนทนา) การให้ context ที่ถูกต้องและครบถ้วนคือความแตกต่างสำคัญระหว่าง beginner กับ power user"
       },
       "why_now": {
         "headline": "ทำไมต้องเรียน AI Prompting ตอนนี้?",
         "bullets": [
-          "สร้างความได้เปรียบในการทำงาน",
-          "เทคนิค Prompting ที่ถูกต้องช่วยประหยัดเวลาและให้ผลลัพธ์ที่ดีกว่าหลายเท่า",
-          "รู้วิธีเลือกใช้โมเดล AI ใหม่ให้เกิดประโยชน์สูงสุด"
+          "AI กลายเป็นเครื่องมือหลักในการทำงาน",
+          "เทคนิค Prompting ที่ถูกต้องช่วยประหยัดเวลาและให้ผลลัพธ์ที่ดีกว่า",
+          "เรียนรู้วิธีเลือกและใช้ให้เกิดประโยชน์สูงสุด"
         ]
       },
       "objectives": {
@@ -46,15 +46,9 @@
       "outcomes": {
         "headline": "หลังจบเวิร์กช็อปคุณจะ...",
         "bullets": [
-          "แยกแยะ Prompt แบบ Novice กับ Poweruser ได้ โดยระบุ context elements ได้อย่างน้อย 4 ใน 6 ข้อ (บทบาท, งาน, กลุ่มเป้าหมาย, ข้อจำกัด, ตัวอย่าง, รูปแบบผลลัพธ์)",
-          "เขียน Prompt ที่มี context ครบถ้วนสำหรับงานจริงของตัวเอง และผลิต Draft แรกที่ใช้ได้จริง",
-          "ตรวจจับ Sycophantic response และเขียน Prompt ใหม่เพื่อให้ได้คำตอบที่ตรงไปตรงมาและเป็นกลาง",
-          "เลือกใช้ระหว่าง Pretrained Knowledge, Web Search และ Deep Research ได้ถูกต้องสำหรับงานต่าง ๆ",
-          "ใช้ Trigger Words อย่างน้อย 3 คำ (think hard, search online, การระบุเวลา/สถานที่) เพื่อยกระดับ Prompt พื้นฐาน",
-          "ปรับปรุงงานเขียนภาษาไทยที่ AI สร้างขึ้นด้วยวงจร critique-and-revise จนได้ Draft ที่ดีขึ้นอย่างเห็นได้ชัด",
-          "ใช้ Multimodal input (ภาพ + ข้อความ เป็นอย่างน้อย) เพื่อทำงานที่ใช้ข้อความเพียงอย่างเดียวไม่ได้",
-          "วิเคราะห์ Use Case ของตัวเองด้วย Goal / Input / Output Framework และสร้าง AI Workflow Blueprint ที่นำไปใช้ได้จริง",
-          "อธิบายข้อจำกัดของ LLM (Hallucination, Context Window, Training Cutoff, Sycophancy) ด้วยคำพูดของตัวเอง พร้อมวิธีรับมืออย่างน้อยหนึ่งวิธีต่อข้อจำกัด"
+          "ใช้ AI ในการเขียน วิเคราะห์ข้อมูล และสร้างสรรค์งานได้อย่างมืออาชีพ",
+          "สร้าง Workflow การทำงานกับ AI ที่มีประสิทธิภาพสำหรับงานจริงของคุณ",
+          "เข้าใจข้อจำกัดของ AI และรับมือกับ Sycophancy และ Hallucination ได้"
         ]
       },
       "curriculum": {
@@ -63,7 +57,7 @@
           {
             "title": "โมดูล 1: AI Novice vs Poweruser",
             "topics": [
-              "AI Novice กับ AI Poweruser ต่างกันอย่างไร",
+              "ความแตกต่างระหว่าง AI Novice กับ AI Poweruser",
               "ทำไม Poweruser ถึงได้ผลลัพธ์ที่ดีกว่า",
               "Mindset และวิธีคิดของ AI Poweruser"
             ]
@@ -132,16 +126,17 @@
         ]
       },
       "details": {
-        "headline": "details",
+        "headline": "ข้อมูลเบื้องต้น",
         "date": "6 June 2026",
         "time": "9:00 AM - 5:00 PM",
         "location": "TBD",
-        "format": "Workshop แบบลงมือทำ",
+        "format": "Workshop แบบลงมือทำ + กรณีศึกษา",
         "requirements": [
           "คอมพิวเตอร์หรือแท็บเล็ตที่เชื่อมต่ออินเทอร์เน็ตได้",
           "สมัครสมาชิก Claude",
           "ความสนใจอยากเรียนรู้"
-        ]
+        ],
+        "price": "3,000 บาท"
       },
       "author": {
         "headline": "เกี่ยวกับผู้สอน",
