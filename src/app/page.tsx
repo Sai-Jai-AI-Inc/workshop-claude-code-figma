@@ -204,6 +204,20 @@ export default function Home() {
                 </div>
               </div>
             </section>
+
+            {/* Refund Policy */}
+            <section className="bg-gray-50 dark:bg-gray-900 rounded-2xl p-8">
+              <h2 className="text-3xl font-bold text-center mb-8">{copy.refund_policy.headline}</h2>
+              <div className="grid sm:grid-cols-2 gap-4">
+                {copy.refund_policy.items.map((item, index) => (
+                  <div key={index} className="bg-white dark:bg-gray-800 rounded-xl p-5">
+                    <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">{item.condition}</p>
+                    <p className="font-semibold text-gray-900 dark:text-white">{item.result}</p>
+                  </div>
+                ))}
+              </div>
+              <p className="mt-6 text-sm text-center text-gray-400 dark:text-gray-500">{copy.refund_policy.note}</p>
+            </section>
           </div>
 
           {/* Sticky Sidebar */}
@@ -254,18 +268,6 @@ export default function Home() {
                       ค่าใช้จ่าย: {copy.details.price}
                     </div>
                   </div>
-                </div>
-                <div className="mb-6 bg-gray-50 dark:bg-gray-700 rounded-xl p-4 text-sm">
-                  <p className="font-semibold text-gray-800 dark:text-gray-200 mb-3">{copy.refund_policy.headline}</p>
-                  <ul className="space-y-2">
-                    {copy.refund_policy.items.map((item, index) => (
-                      <li key={index} className="flex flex-col gap-0.5">
-                        <span className="text-gray-500 dark:text-gray-400">{item.condition}</span>
-                        <span className="font-medium text-gray-800 dark:text-gray-200">{item.result}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <p className="mt-3 text-xs text-gray-400 dark:text-gray-500">{copy.refund_policy.note}</p>
                 </div>
                 <a href={copy.footer.google_form_url} target="_blank">
                   <button
