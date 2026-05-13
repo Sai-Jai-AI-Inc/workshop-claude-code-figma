@@ -107,6 +107,22 @@ export default function Home() {
               </div>
             </section>
 
+            {/* Testimonials */}
+            <section>
+              <h2 className="text-3xl font-bold text-center mb-12">{copy.testimonials.headline}</h2>
+              <div className="grid md:grid-cols-2 gap-6">
+                {copy.testimonials.items.map((item, index) => (
+                  <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm flex flex-col gap-4">
+                    <p className="text-gray-700 dark:text-gray-300 leading-relaxed italic">&ldquo;{item.quote}&rdquo;</p>
+                    <div>
+                      <p className="font-semibold text-gray-900 dark:text-white">{item.name}</p>
+                      <p className="text-sm text-gray-500 dark:text-gray-400">{item.role} · {item.company}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+
             {/* FAQs */}
             <section>
               <h2 className="text-3xl font-bold text-center mb-12">{copy.faq.headline}</h2>
@@ -132,11 +148,23 @@ export default function Home() {
                     />
                   </div>
                   <div className="flex-1 text-center md:text-left">
-                    <h3 className="text-2xl font-bold mb-2">{copy.author.full_name}</h3>
-                    <p className="text-gray-700 dark:text-gray-300 font-semibold mb-4">{copy.author.role}</p>
+                    <h3 className="text-2xl font-bold mb-1">{copy.author.full_name}</h3>
+                    <p className="text-gray-700 dark:text-gray-300 font-semibold mb-1">{copy.author.role}</p>
+                    <p className="text-sm text-blue-600 dark:text-blue-400 font-medium mb-4">{copy.author.career_highlight}</p>
                     <p className="text-gray-600 dark:text-gray-400 mb-4">
                       {copy.author.description}
                     </p>
+                    <div className="mb-4 text-left">
+                      <p className="text-sm font-semibold text-gray-800 dark:text-gray-200 mb-2">Certifications</p>
+                      <ul className="space-y-1">
+                        {copy.author.certifications.map((cert, index) => (
+                          <li key={index} className="flex items-start gap-2 text-sm text-gray-600 dark:text-gray-400">
+                            <span className="text-green-500 mt-0.5">✓</span>
+                            <span>{cert}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                     <div className="flex flex-wrap gap-2 justify-center md:justify-start">
                       {copy.author.tags.map((tag, index) => (
                         <span key={index} className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-3 py-1 rounded-full text-sm">
@@ -227,8 +255,20 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                <div className="mb-6 bg-gray-50 dark:bg-gray-700 rounded-xl p-4 text-sm">
+                  <p className="font-semibold text-gray-800 dark:text-gray-200 mb-3">{copy.refund_policy.headline}</p>
+                  <ul className="space-y-2">
+                    {copy.refund_policy.items.map((item, index) => (
+                      <li key={index} className="flex flex-col gap-0.5">
+                        <span className="text-gray-500 dark:text-gray-400">{item.condition}</span>
+                        <span className="font-medium text-gray-800 dark:text-gray-200">{item.result}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="mt-3 text-xs text-gray-400 dark:text-gray-500">{copy.refund_policy.note}</p>
+                </div>
                 <a href={copy.footer.google_form_url} target="_blank">
-                  <button 
+                  <button
                   className="w-full bg-gray-900 hover:bg-gray-800 text-white py-3 px-6 rounded-full font-medium transition-colors duration-200 cursor-pointer"
                 >
                     {copy.footer.cta}

@@ -104,6 +104,17 @@
           }
         ]
       },
+      "testimonials": {
+        "headline": "เสียงจากผู้เข้าร่วม",
+        "items": [
+          {
+            "name": "",
+            "role": "",
+            "company": "",
+            "quote": ""
+          }
+        ]
+      },
       "faq": {
         "headline": "คำถามที่พบบ่อย",
         "items": [
@@ -145,9 +156,18 @@
           "alt": "กมล ตรีวัชรารัตน์"
         },
         "full_name": "กมล ตรีวัชรารัตน์",
-        "role": "SaiJaiAI LLC | AI Practitioner",
-        "description": "ผู้เชี่ยวชาญด้าน AI และ Machine Learning พร้อมประสบการณ์ในการพัฒนา Software Engineering จบการศึกษาจาก University of Southern California และได้รับการ Certification หลากหลายสาขาทั้ง Natural Language Processing, MLOps และ Generative AI",
+        "role": "SaiJaiAI LLC | AI Practitioner & Educator",
+        "career_highlight": "12 ปีที่ Apple ในตำแหน่ง Senior iOS/macOS Engineer",
+        "description": "กมล ตรีวัชรารัตน์ มีประสบการณ์การทำงาน 12 ปีที่ Apple ในตำแหน่ง Senior iOS/macOS Engineer พัฒนาซอฟต์แวร์ระดับโลกที่ใช้งานโดยผู้ใช้หลายร้อยล้านคน จบการศึกษาจาก University of Southern California และได้รับ Certification จาก DeepLearning.AI, Coursera และ Anthropic ในสาขา Machine Learning, Natural Language Processing, MLOps และ Generative AI ปัจจุบันเป็น AI Practitioner และผู้ก่อตั้ง SaiJaiAI LLC มุ่งเน้นการนำ Generative AI มาประยุกต์ใช้ในธุรกิจและชีวิตประจำวัน",
+        "certifications": [
+          "DeepLearning.AI — Machine Learning Specialization",
+          "DeepLearning.AI — Natural Language Processing Specialization",
+          "DeepLearning.AI — MLOps Specialization",
+          "DeepLearning.AI — Generative AI with Large Language Models (Coursera)",
+          "Anthropic — AI Safety Fundamentals"
+        ],
         "tags": [
+          "12 ปีที่ Apple",
           "Machine Learning",
           "AI Educator",
           "Generative AI"
@@ -163,6 +183,28 @@
             "url": "https://github.com/tholapz"
           }
         }
+      },
+      "refund_policy": {
+        "headline": "นโยบายการยกเลิกและคืนเงิน",
+        "items": [
+          {
+            "condition": "ยกเลิกก่อนวันอบรม 7 วันขึ้นไป",
+            "result": "คืนเงิน 100%"
+          },
+          {
+            "condition": "ยกเลิกก่อนวันอบรม 3–6 วัน",
+            "result": "คืนเงิน 50%"
+          },
+          {
+            "condition": "ยกเลิกก่อนวันอบรมน้อยกว่า 3 วัน",
+            "result": "ไม่คืนเงิน แต่สามารถโอนสิทธิ์ให้ผู้อื่นได้"
+          },
+          {
+            "condition": "Workshop ถูกยกเลิกโดยผู้จัด",
+            "result": "คืนเงิน 100% ภายใน 5 วันทำการ"
+          }
+        ],
+        "note": "สำหรับข้อสงสัยเพิ่มเติม ติดต่อผ่านทาง LINE: @saijaiaillc"
       },
       "footer": {
         "note": "© 2026 AI Prompting for Everyone Workshop (TH). Powered by SaiJaiAI",
