@@ -1,16 +1,16 @@
 {
   "site": {
-    "title": "AI Workshop สำหรับทุกคน Batch #1 | SaiJaiAI",
+    "title": "AI Workshop สำหรับทุกคน | SaiJaiAI",
     "keywords": "AI Prompting, ChatGPT, Claude, AI Tools, Workshop, Thailand, Bangkok, AI Skills",
     "openGraph": {
-      "title": "AI Workshop สำหรับทุกคน Batch #1",
+      "title": "AI Workshop สำหรับทุกคน",
       "description": "เรียนรู้เทคนิค AI Prompting อย่างมืออาชีพ พัฒนาทักษะจากผู้ใช้งานมือใหม่ สู่มือโปร",
       "type": "website"
     },
     "tagline": "เรียนรู้เทคนิค AI Prompting อย่างมืออาชีพใน Workshop หนึ่งวันเต็ม พัฒนาทักษะการใช้ AI ในชีวิตประจำวัน และการทำงาน กับ กมล ตรีวัชรารัตน์",
     "sections": {
       "hero": {
-        "headline": "AI Workshop สำหรับทุกคน Batch #1",
+        "headline": "AI Workshop สำหรับทุกคน",
         "subheadline": "เรียนรู้วิธีนำ AI ไปใช้ในงานจริงอย่างมีประสิทธิภาพ ไม่ว่าจะเป็นการเขียน วิเคราะห์ข้อมูล หรือสร้างเครื่องมือดิจิทัลสำหรับธุรกิจ — ใน Workshop หนึ่งวันที่ลงมือทำได้จริง",
         "cta": "สมัครเรียน",
         "reference": "เหมาะสำหรับพนักงานและเจ้าของกิจการที่ต้องการใช้ AI เป็นเครื่องมือทำงาน ไม่จำเป็นต้องมีพื้นฐานด้านเทคนิคมาก่อน"
