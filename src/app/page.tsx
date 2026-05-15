@@ -286,6 +286,15 @@ export default function Home() {
       <footer className="py-8 px-4 sm:px-6 lg:px-8 bg-gray-900 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <p className="mb-4">{copy.footer.note}</p>
+          <div className="flex justify-center gap-6 text-sm text-gray-400">
+            <a href="/privacy-policy" className="hover:text-white transition-colors">
+              นโยบายความเป็นส่วนตัว
+            </a>
+            <span>·</span>
+            <a href="/terms" className="hover:text-white transition-colors">
+              เงื่อนไขการใช้งาน
+            </a>
+          </div>
         </div>
       </footer>
     </div>
